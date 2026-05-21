@@ -1,0 +1,56 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite3
+*.db
+
+# FastAPI / Uvicorn
+uvicorn.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Alembic migrations cache
+alembic/versions/__pycache__/
+
+# Docker
+*.pid
+
+# Secrets
+secrets.json
+config.local.json
